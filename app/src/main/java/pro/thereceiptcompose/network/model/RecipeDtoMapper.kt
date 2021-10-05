@@ -44,5 +44,4 @@ class RecipeDtoMapper : DomainMapper<RecipeDto, Recipe> {
         return initial.map { mapFromDomainModel(it) }
     }
 
-
 }

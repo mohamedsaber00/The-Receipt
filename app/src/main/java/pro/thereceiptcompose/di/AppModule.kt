@@ -9,6 +9,8 @@ import dagger.hilt.components.SingletonComponent
 import pro.thereceiptcompose.presentation.BaseApplication
 import javax.inject.Singleton
 
+
+//M1 IS HERE
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {

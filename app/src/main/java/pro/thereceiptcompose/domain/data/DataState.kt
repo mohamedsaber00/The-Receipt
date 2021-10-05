@@ -1,5 +1,10 @@
 package pro.thereceiptcompose.domain.data
 
+/*
+* A simple data class to handle all type of data state : LOADING , SUCCESS and ERROR
+*
+* */
+
 data class DataState<out T>(
     val data: T? = null,
     val error: String? = null,
@@ -18,5 +23,4 @@ data class DataState<out T>(
         fun <T> loading(): DataState<T> = DataState(loading = true)
 
     }
-
 }
